@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    line-height: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #CEC4AB;
+    color: #4D4A4B;
+    width: 100%;
+}
+
+.sec-1 {
+    display: flex;
+    width: 100%;
+    height: 550vh;
+    justify-content: center;
+}
+
+.thumbnails-container {
+    max-width: 300px;
+    height: 300px;
+    flex-basis: 30%;
+    text-align: right;
+    border-radius: 10%;
+    border: 1px solid #A1998E;
+    margin: 10px;
+    overflow: hidden;
+    color: #CEC4AB;
+    background-color: #4D4A4B;
+    position: sticky;
+    top: 20%;
+    box-shadow: 0px 8px #A1998E;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    background-color: #4D4A4B;
+    transition: transform 0.5s ease;
+    position: absolute;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.cards-container {
+    flex-basis: 70%;
+    max-width: 600px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid #A1998E;
+    border-radius: 10%;
+    /* overflow: hidden; */
+    position: sticky;
+    top: 20%;
+    box-shadow: 0px 8px #A1998E;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Jersey 25';
+    font-size: 15rem;
+    position: relative;
+    margin-top: 25%;
+}
+
+h2 {
+    font-family: 'Jersey 25';
+    font-size: 7rem;
+    padding-right: 40px;
+}
+
+h3 {
+    font-family: 'Pixelify Sans';
+    font-size: 5.5rem;
+    padding-right: 40px;
+}
+
+
+
