@@ -11,6 +11,7 @@
     box-sizing: border-box;
     /* border: 1px solid red; */
     font-family: '8bit';
+    margin: 0;
 }
 
 html {
@@ -18,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #d7cfbd;
+    background-color: #CEC4AB;
     color: #4D4A4B;
     width: 100%;
     text-align: center;
@@ -37,7 +38,7 @@ body {
     height: 300px;
     flex-basis: 30%;
     border-radius: 32px;
-    border: 8px solid #CEC4AB;
+    /* border: 8px solid #d7cfbd; */
     margin: 10px;
     overflow: hidden;
     color: #CEC4AB;
@@ -56,6 +57,9 @@ body {
     position: absolute;
 }
 
+.thumbnail .hello {
+     padding-top: 25%;
+}
 .proj-th img{
     border: 10px solid #A1998E;
     border-radius: 24px;
@@ -70,13 +74,13 @@ body {
     max-width: 650px;
     height: 300px;
     margin: 10px;
-    border: 6px solid #CEC4AB;
+    border: 6px solid #6f7075;
     border-radius: 20px;
     overflow: hidden;
     position: sticky;
     top: calc(50% - 150px);
     box-shadow: 0px 10px #6f7075;
-    background-color: #A1998E;
+    background-color: #CEC4AB;
     text-align: center;
     vertical-align: top;
 }
@@ -84,7 +88,7 @@ body {
 .card {
     width: 100%;
     height: 100%;
-    background-color: #A1998E;
+    background-color: #CEC4AB;
     position: absolute;
     top: 1rem;
     padding: 10px 20px;
@@ -94,16 +98,18 @@ body {
 h1 {
     font-size: 8rem;
     line-height: 3.4rem;
+    text-shadow: 0px 4px #A1998E;
 }
 
 h2 {
     font-size: 4rem;
-    line-height: 4rem;
+    text-shadow: 0px 4px #A1998E;
 }
 
 h3 {
     font-size: 3rem;
     line-height: 2rem;
+    text-shadow: 0px 2px #A1998E;
 }
 
 h4 {
@@ -157,12 +163,40 @@ p {
     height: 400px;
     max-height: 400px;
     margin: 2rem;
-    padding: 20px 40px;
-    background-color: #CEC4AB;
+    padding: 40px 40px;
+    background-color: #A1998E;
     border-radius: 30px;
     text-align: justify;
 }
 
+.sec-2 p {
+    margin-top: 10%;
+}
+
 .sec-3 {
     margin: 4rem;
+}
+
+.form {
+   position: relative;
+   left: calc(50% - 225px);
+   width: 50vh;
+   margin-top: 4rem;
+}
+
+form {
+    width: 100%;
+    text-align: left;
+    background-color: #4D4A4B;
+    color: #CEC4AB;
+    padding: 30px;
+    line-height: 2.5rem;
+}
+
+footer {
+    background-color: #4D4A4B;
+    color: #A1998E;
+    margin-bottom: 0;
+    height: 4rem;
+    padding: 1.8rem;
 }
